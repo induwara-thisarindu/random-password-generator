@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 10, 36);
+    font-family: "Roboto", sans-serif;
+}
+.generator {
+    background-color: rgb(21, 8, 21);
+    width: 450px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    border: #0009 5px solid;
+    border-radius: 5px;
+}
+.generator .info {
+    padding: 40px;
+    border-bottom: #0009 5px solid;
+}
+.generator .info h1 {
+    color: white;
+}
+.generator .info h1 span {
+    color: #50C878;
+    font-weight: bolder;
+}
+.generator .info p {
+    color: rgb(185, 181, 181);
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.generator .info button {
+    background-color: #50C878;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+}
+.passwords {
+    display: flex;
+}
+.passwords #first_password, #second_password{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #0009;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    width: 200px;
+    color: #50C878;
+    text-align: center;
+    padding: 10px;
+}
